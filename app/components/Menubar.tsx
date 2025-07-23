@@ -25,7 +25,7 @@ const Menubar = () => {
                     />
                 </div>
                 <div className='text-[#2E2E2E] text-right text-[16px] font-medium'>
-                    Create account. <span className='text-[#2F6CE5] text-[16px] font-bold'>It's free!</span>
+                    Create account. <span className='text-[#2F6CE5] text-[16px] font-bold'>It&#39;s free!</span>
                 </div>
             </div>
             <div className='md:hidden h-[24px] px-[12px] flex justify-end items-center'>
