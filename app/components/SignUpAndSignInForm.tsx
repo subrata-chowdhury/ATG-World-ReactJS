@@ -9,7 +9,7 @@ const SignUpAndSignInForm = ({ onClose = () => { } }: { onClose?: () => void }) 
         <div className='fixed top-0 left-0 w-full h-screen z-20 bg-black/50'>
             <div className={`fixed md:relative bottom-0 left-0 md:top-1/2 md:left-1/2 md:-translate-1/2 w-full md:w-[736px] bg-white rounded-t-[8px] md:rounded-[8px] min-h-[462px]`} onClick={e => e.stopPropagation()}>
                 <div className='absolute hidden md:block top-[-50px] right-[-19px] cursor-pointer' onClick={onClose}><Image src={"/Icons/cross.svg"} width={28} height={28} alt='' /></div>
-                <div className='h-[50px] w-full rounded-t-[8px] bg-[#EFFFF4] justify-center items-center text-[#008A45] text-center text-[14px] font-medium leading-[16px] hidden md:flex'>Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</div>
+                <div className='h-[50px] w-full rounded-t-[8px] bg-[#EFFFF4] justify-center items-center text-[#008A45] text-center text-[14px] font-medium leading-[16px] hidden md:flex'>Let&#39;s learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘🏼</div>
                 <div className='px-[20px] pt-[22px] pb-[18px] md:p-9 md:pt-6'>
                     <div className='flex gap-[24px] w-full'>
                         <div className='w-full md:w-auto'>
