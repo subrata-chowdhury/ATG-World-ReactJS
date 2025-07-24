@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const Menubar = () => {
+const Menubar = ({ onCreateAccountBtnClick }: { onCreateAccountBtnClick: () => void }) => {
     return (
         <>
             <div className='hidden md:flex md:px-[50px] xl:px-[72px] h-[72px] items-center justify-between bg-[#FFFFFF] [box-shadow:0px_1px_2px_0px_rgba(0,_0,_0,_0.12)]'>
@@ -24,7 +24,7 @@ const Menubar = () => {
                         className='flex-grow outline-0 text-[#5C5C5C] text-[14px] pr-3.5 font-medium'
                     />
                 </div>
-                <div className='text-[#2E2E2E] text-right text-[16px] font-medium'>
+                <div className='text-[#2E2E2E] text-right text-[16px] font-medium cursor-pointer' onClick={onCreateAccountBtnClick}>
                     Create account. <span className='text-[#2F6CE5] text-[16px] font-bold'>It&#39;s free!</span>
                 </div>
             </div>
