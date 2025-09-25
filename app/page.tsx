@@ -17,7 +17,7 @@ export default function Home() {
             <Menubar onCreateAccountBtnClick={() => setShowSignUpSignInForm(true)} />
             <Header />
             <Tabs />
-            <div className='flex justify-between mx-0 md:mx-[10%] xl:mx-[13.888%] gap-[18px] md:gap-[50px] xl:gap-[105px]'>
+            <div className='flex justify-between mx-0 md:mx-[10%] xl:mx-[13.888%] gap-[18px] md:gap-[50px] xl:gap-[105px] mb-6'>
                 <Posts />
                 <Recommendation />
             </div>
